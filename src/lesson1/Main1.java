@@ -5,7 +5,7 @@ public class Main1 {
         int money = 1000;
         int priceOfSnikers=35;
         double priceOfCandy=3.5;
-
+int y = 9 ;
         int countSnikersCanBuy =  money/priceOfSnikers;
         int restOfMoneyAfterSnikersBuy = money % priceOfSnikers;
 
