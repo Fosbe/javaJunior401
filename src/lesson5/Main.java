@@ -5,7 +5,9 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
     public static void main(String[] args) {
-     String level =  SkannerUtil.getLevel();
+        String level = SkannerUtil.getLevel();
+
+int w = 0 ;
 
         if (level.equalsIgnoreCase("новичок")) {
             int[][] field = new int[9][9];
@@ -60,7 +62,7 @@ public class Main {
             System.out.println("Кол-во мин: ");
             int mines = scanner.nextInt();
             int[][] field = new int[a][b];
-            if (mines > (a * b))  { // условие, если введено значение мин
+            if (mines > (a * b)) { // условие, если введено значение мин
                 mines = a * b;    // больше допустимого
             }
             for (int i = 0; i < mines; i++) {
