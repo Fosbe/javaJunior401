@@ -1,5 +1,7 @@
 package lesson10;
 
+import test.IMatrix;
+
 public class Main1 {
     public static void main(String[] args) {
         double[][] forA = {{1, 2, 3, 4},

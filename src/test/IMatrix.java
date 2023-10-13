@@ -1,4 +1,4 @@
-package lesson10;
+package test;
 
 /**
  * Интерфейс работы с матрицами

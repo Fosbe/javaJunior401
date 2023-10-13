@@ -1,5 +1,7 @@
 package lesson10;
 
+import test.IMatrix;
+
 public class Matrix implements IMatrix {
     private double[][] nums;
 
